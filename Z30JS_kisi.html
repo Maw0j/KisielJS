@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script type="text/javascript">
+            var router = {
+                Marka: 'Tp-link',
+                Przpustowosc: '574Mb/s',
+                Kolor: 'Czarny',
+                Model: "Archer AX23 2.4 / 5 GHz",
+                Pokaz:function ()
+                {
+                    document.write(this.Marka+ ' ' +this.Model)
+                }
+            }
+                router.Pokaz();
+                router.Ilosc_anten=4;
+                router.wypisz=function() {alert('Ilość anten: ' + this.Ilosc_anten + ' sztuki')}
+                router.wypisz();
+
+            
+        </script>
+    </head>
+    <body>
+        <br>
+        Programowanie obiektowe. <br>
+        Obiekt to router<br>
+        Pola:<br>
+        Marka:<br>
+        Przpustowość:<br>
+        Kolor:<br>
+        Model:<br>
+        metoda: pokaz<br>
+        nowe pole to Ilość_anten<br>
+        nowa metoda to wypisz();<br>
+    </body>
+</html>    
