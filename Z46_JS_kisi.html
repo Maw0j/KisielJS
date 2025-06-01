@@ -1,0 +1,27 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kisiela</title>
+    <div  style="font-size: 41px;color: seagreen;">
+    <script lang="JavaScript">
+       var PMK = parseFloat(prompt("Podaj podstawę:", ""));
+       var WMK = parseFloat(prompt("Podaj wysokość:", ""));
+       do
+        {
+           if (PMK <= 0 || WMK <= 0) {
+               alert("Negatywne liczby nie mają prawa bytu!");
+               PMK = parseFloat(prompt("Podaj podstawę:", ""));
+               WMK = parseFloat(prompt("Podaj wysokość:", ""));
+           } else {
+               document.write("Pole trójkąta wynosi: " + (PMK * WMK / 2) + "<br>");
+           }
+        }
+        while (PMK <= 0 || WMK <= 0);
+
+    </script>
+</head>
+<body>
+
+</body>
+</div>
+</html>
