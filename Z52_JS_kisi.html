@@ -3,13 +3,25 @@
 <div style="color: red;font-size: 20px;">
 <script language="JavaScript">
     
-    var a=8;
-    var b=6;
-        for(i=0;i<=a;i++)
+    var a=7;
+    var b=7;
+        for(i=0;i<a;i++)
         {
-            document.write("*")
-            
+            document.write("*&nbsp;")
         }
+
+            document.write("<br>");
+                for (j=0;j<b;j++)
+                {
+                    document.write("*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*<br>");
+                }
+                    if (j == 7)
+                    {
+                        for (k=0;k<a;k++)
+                        {
+                            document.write("*&nbsp;")
+                        }
+                    }
     document.write("<br>Moje imie to Mateusz Kisiela");
 </script>
 </div>
